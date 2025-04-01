@@ -1,0 +1,407 @@
+body{
+    @media screen and (min-width: 1000px) and (max-width: 2000px){
+        display: flex;
+    }
+    overflow-x: hidden;
+    margin: 0%;
+}
+header{
+    background-color: rgb(46, 44, 44);
+    text-align: center;
+    padding: 15px 0 15px 0px;
+    width: 100%;
+}
+.fa-circle-check {
+    color: #FFD43B;
+}
+.fa-envelope-open-text {
+    color: #3e77a3;
+    font-size: 25px;
+}
+#estimate-link{
+color: rgb(199, 198, 198);
+text-align: center;
+a{
+color: white;
+}
+}
+.contact-info-tool-bar{
+    display: flex;
+    justify-content: space-between;
+}
+.header-email-info{
+    padding-left: 150px;
+    padding-top:20px;
+display: flex;
+gap: 30px;
+    #email-caption{
+color: rgb(117, 114, 114);
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}
+.header-contact-info{
+    padding-right: 150px;
+    padding-top: 20px;
+    display: flex;
+    gap: 30px;
+
+#phone-caption{
+    color: rgb(117, 114, 114);
+}
+}
+.fa-phone-volume{
+    font-size: 22px;
+}
+.navigation-bar{
+padding: 0 200px 0 200px;
+text-align: center;
+}
+nav{
+    justify-content: center;
+    
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+nav ul li {
+    display: inline;
+    margin: 0 5px;
+}nav ul li {
+    display: inline;
+    margin: 0 5px;
+}
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+}
+#home{
+    a{color: orange;}
+}
+.moving-family-image{
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+.family-image{
+    width: 100%;
+    object-fit: fill;
+}
+.centered {
+    text-align: center;
+    align-items: baseline;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    bottom: 1%;
+    .moving-family-heading{
+        display: flex;
+        gap: 40px;
+    }
+    #get-started{
+        color: white;
+        background-color: orange;
+        border: orange solid 25px;
+        border-radius: 5px;
+        width: 200px;
+    }
+    
+  }
+  .about-us-content{
+    padding-top: 7%;
+    padding-left: 7%;
+    display: flex;
+    gap: 100px;
+
+    a{
+        color: orange;
+    }
+  }
+.empty-box{
+    border: 10px solid blue;
+    margin: 5%;
+    padding: 200px;
+    background-color: transparent;
+    
+}
+.logo-ipsum{
+    padding-top: 190px;
+    padding-left: 80px;
+display: flex;
+}
+.our-services{
+    padding-left: 80px;
+    text-align: center;
+    a{
+        color: orange;
+    }
+    h2{
+        font-size: 50px;
+    }
+}
+.what-we-do{
+    background-color: rgb(234, 236, 236);
+}
+.services-posters{
+    text-align: center;
+    padding-left: 520px;
+    gap: 90px;
+    display: flex;
+    #read-more{
+        color: orange;
+    } 
+    margin: auto;
+}
+.helping-you-every-step-of-the-way{
+    display: flex;
+    padding-left: 90px;
+    padding-top: 50px; 
+    padding-bottom: 10px;
+    gap: 20px;
+    #link-caption{
+        padding-left: 37%;
+    }
+    #what-we-do-image{
+    
+        width: 9%;
+        height: 5%;
+    }
+    #services-caption{
+        font-size: 30px;
+    }
+}
+.packing{
+    border: 30px solid white;
+    background-color: white;
+    box-shadow: 1px  white;
+}
+.storage{
+    border: 30px solid blue;
+    background-color: blue;
+    color: white;
+    box-shadow: 1px  white;
+}
+.transport{
+    border: 30px solid white;
+    background-color: white;
+    box-shadow: 1px  white;
+}
+.insurance{
+    border: 30px solid white;
+    background-color: white;
+    box-shadow: 1px  white;
+}
+.fa-play{
+    color:white;
+    border: orange solid;
+    align-items: center;
+    background-color: orange;
+    height: 3%;
+    padding: 20px;
+    border-radius: 100%;
+}
+.packing-room-advert{
+    border: 30px solid blue;
+    background-color: blue;
+    color: white;
+    box-shadow: 1px  white;
+    width:20%;
+    #advert-content{
+        width:40%;
+        border: 30px solid white;
+        background-color: white;
+        box-shadow: 1px  white;
+        color:black;
+        a{
+            color: orange;
+        }
+    }
+}
+.why-choose-riaad{
+    display: flex;
+    gap:200px;
+
+    #donate-button-one{
+        display: flex;
+        border: 1px beige;
+        padding:10px;
+        width: 75%;
+        margin-bottom: 1%;
+        
+    }
+    #donate-button-two{
+        display: flex;
+        border: 1px beige;
+        padding:10px;
+        width: 75%;
+        margin-bottom: 1%;
+        
+    }
+    #donate-button-three{
+        display: flex;
+        border: 1px beige;
+        padding:10px;
+        width: 75%;
+        
+    }
+}
+.dont-hesitate-to-call-us{
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 4%;
+    a{
+        color: orange;
+    }
+}
+.movers-form{
+    text-align: center;
+    .form-caption{
+        padding-left: 36%;
+        display: flex;
+    }
+
+}
+#subscribe-now{
+    background-color: orange;
+    color: white;
+    padding: 1%;
+    border: none;
+}
+.email-and-button{
+    gap:10%;
+    padding-bottom: 2%;
+}
+.news-updates{
+    text-align: center;
+    p{
+        color: orange;
+    }
+    #join-for-new-updates{
+        color: black;
+        font-size: 40px;
+    }
+}
+.news-and-articles{
+    text-align: center;
+    a{
+        color: orange;
+    }
+}
+.articles{
+    text-align: center;
+    display: flex;
+}
+.movers-right-section{
+    text-align: justify;
+    background-color:orange;
+    padding:3%;
+    color:white;
+}
+form{
+    display: flex;
+    text-align: justify;
+    gap:5%;
+    background-color: blue;
+    padding:3%;
+    #date{
+        width:180px;
+    }
+
+}
+.about-us-bottom-section{
+    display: flex;
+    gap:50px;
+    padding-top: 15%;
+    .riaad-launch-year{
+        padding-top: 5%;
+
+        p{
+            margin-top: 1%;
+            font-size: 40px;
+        }
+    }
+
+}
+.fa-chevron-left{
+    color: #b7b9bd;
+}
+.fa-chevron-right{
+    color: #b7b9bd;
+}
+.fa-twitter{
+    color: #f27602;
+}
+.testimonials{
+    padding-left: 10%;
+    padding-top: 5%;
+    .testimony-title{
+     text-align: center;
+     padding-right: 17%;
+     p{
+        font-size: 13px;
+        color: orange;
+     }
+     h4{
+        font-size: 35px;
+     }
+    }
+}
+.testimony-content{
+    text-align: center;
+    padding-left: 10%;
+    gap: 100px;
+    display: flex;
+    line-height: 2em;
+    #christine-rose{
+     font-size:100%;
+     color: orange;
+    }
+    span{
+        font-size: 70%;
+    }
+}
+.discover-more{
+    background-color: orange;
+    display:flex;
+    gap: 200px;
+    padding: 3%;
+    text-align: center;
+  
+    p{
+        margin-left: 15%;
+        color: white;
+    }
+    #discover-more-button{
+        background-color: black;
+        color: white;
+        border: none;
+        padding: 1%;
+    }
+}
+.footer-content{
+    padding: 3%;
+    justify-content: center;
+    display: flex;
+    gap: 200px;
+    background-color: black;
+    color: white;
+    p{
+        padding-left: 10%;
+    }
+}
+.footer-icons{
+gap: 700px;
+}
+footer{
+    background-color: black;
+    color: white;
+    margin-top: 0%;
+}

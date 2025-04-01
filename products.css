@@ -1,0 +1,235 @@
+
+body{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-left: 100px;
+    height: 100%;
+    row-gap: 5px;
+    position:absolute;
+    overflow-x: hidden;
+}
+@media screen and (min-width: 2304px) and (max-width: 1440px){
+    .container{
+display: flex;
+    }
+}
+header{
+        text-align: center;
+        color: #333;
+        display: flex;
+        gap: 160px;
+        
+    }
+    h1{
+        padding-left: 160px;
+    }
+
+    nav{
+        justify-content: center;
+    }
+    nav ul{
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 510px;
+        margin-top: 40px;
+    }
+    nav ul li {
+        display: inline;
+        margin: 0 5px;
+    }nav ul li {
+        display: inline;
+        margin: 0 5px;
+    }
+    nav ul li a {
+        color: #333;
+        text-decoration: none;
+    }
+
+    .icons{
+        display: flex;
+        gap:10px;
+        padding-top: 1%;
+        padding-left: 10%;
+        color:white;
+    }
+    #introduction{
+        text-align:justify;
+        font-size: 50px;
+    }
+    #homeword{
+border-style:dashed ;
+
+    }
+    .introduction-details{
+        padding-left: 180px;
+    }
+
+    #elevate-your-space-part{
+        display:flex;
+
+    }
+    .pic-two{
+        margin-left: 1100px;
+        margin-top: -500px;
+       
+    }
+    #image-one{
+        border-radius: 5%;
+        width: 90%;
+    }
+    #start-button{
+        border-radius: 35px;
+        background-color: #333;
+        color: white;
+        box-shadow: none;
+        width: 150px;
+        height:70px;
+        border: none;
+    }
+    #shop-button{
+        border-radius: 35px;
+        background-color:white;
+        color: black;
+        box-shadow: none;
+        width: 150px;
+        height:70px;
+        border: 1px solid black;
+    }
+    .fa-play{
+        color: #333;
+        border: solid rgb(214, 210, 210);
+        background-color: rgb(214, 210, 210);
+        padding: 10px;
+        border-radius: 6px;
+        text-align: center;
+    }
+    .item-price-percentages{
+        display: flex;
+        gap: 15px;
+        font-size: 40px;
+    }
+    .ikea-part{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 150px;
+    }
+    #word{
+        font-size: 17px;
+    }
+    .best-seller{
+        display:flex;
+        justify-content: space-evenly;
+        gap: 1000px;
+
+    }
+    .previous-next-button{
+        .fa-play{
+        color: #333;
+        background-color: white;
+        border: none;
+        
+    }
+    
+    }
+    .vase-images{
+display: flex;
+justify-content: space-evenly;
+    }
+    .restyle-your-space{
+        text-align: center;
+        padding-bottom: 250px;
+    }
+#wall-pic{
+    width: 40%;
+    
+}
+.in-store-promotions{
+    display: flex;
+    padding-bottom: 200px;
+    padding-left: 200px;
+
+    
+}
+#offers{
+text-align: center;
+margin-right: 14%;
+}
+h3{
+    font-size: 50px;
+    line-height: 50px;
+}
+h4{
+    font-size: 50px;
+    line-height: 50px;
+}
+.stylish-pieces{
+display: flex;
+justify-content: space-evenly;
+gap: 200px; 
+}
+.what-we-offer{
+    text-align: center;
+    p{
+        font-size: 30px;
+        line-height: 10px;
+    }
+    padding-bottom: 180px;
+}
+.products{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 230px;
+}
+.reviews-and-testimonials{
+    text-align: center;
+    p{
+        font-size: 30px;
+        line-height: 4px;
+    }
+    padding-bottom: 300px;
+}
+.customer-review{
+    text-align: center;
+    display: flex;
+    gap: 100px;
+    margin-left: 400px;
+    padding-bottom: 200px;
+}
+#arther-name{
+    margin: none;
+        }
+        .fa-arrow-right{
+       color: #000;
+        }
+#arther-review{
+    text-align: justify;
+   
+}
+.arther{
+    display: flex;
+}
+#review{
+    display: flex;
+    justify-content: space-evenly;
+}
+.review-pic{
+    margin-top: -120px;
+}
+.about-us{
+    display: flex;
+    justify-content: space-evenly;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+.copyrights{
+    display: flex;
+    justify-content: space-evenly;
+    gap:650px;
+}
+.fa-copyright{
+color: #000;
+}

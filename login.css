@@ -1,15 +1,13 @@
 .form{
     border:  0px;
     border-radius: 1px;
-    width: 35%;
+    width: 32%;
     margin: 200px auto;
     padding: 30px;
     color: rgb(10, 10, 10);
     font-family: Arial, Helvetica, sans-serif;
     box-shadow:  0 4px 8px 0  rgb(0, 0, 0, 0.2);
-}
-body{
-    background-color: rgba(243, 240, 240, 0.781);
+    justify-content: center;
 }
 .brands{
     text-align: center;
@@ -19,7 +17,7 @@ body{
 }
 #content{
     padding: 8px 12px;
-    width: 82.5%;
+    width: 90%;
     margin: 5px 0;
     border-radius: 1px;
     border: solid 1px;
@@ -34,9 +32,8 @@ h4 {
     display: flex;
     flex-direction: row;
     font-style: normal;
-    width: 82.5%;
+    width: 90%;
 }
-
 h4:before,
 h4:after {
     content: "";
@@ -52,18 +49,10 @@ h4:after {
     background-color: black;
     color: white;
     cursor: pointer;
-    width: 86%;
+    width: 95%;
     display: block;
     margin: 5px 0;
 }
 a{
     text-decoration: none;
-}
-/* Making it responsive  */
-
-@media only screen and (-webkit-min-device-pixel-ratio: 3.5) {
-    body{
-font-size:100%;
-line-height: 1.5;
-    }
 }
