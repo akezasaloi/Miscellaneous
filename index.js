@@ -90,7 +90,7 @@
 // });
 // console.log(duplicates);
 
-let string = "      alice";
-let newString = string.trim().toLowerCase();
-let resultString = newString.charAt(0).toUpperCase()+newString.slice(1);
-console.log(resultString);
+// let string = "      alice";
+// let newString = string.trim().toLowerCase();
+// let resultString = newString.charAt(0).toUpperCase()+newString.slice(1);
+// console.log(resultString);
