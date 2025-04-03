@@ -107,11 +107,27 @@
 // let helpneeded = askForHelp.toLowerCase()
 // let answer = helpneeded === "help" ? ("I am here for you"):("how else can I assist you?");
 // console.log(answer);
-let a = 20; //First name of students whose first name starts with a vowel
-let b =20; //First name of students whose first name starts with a consonant
-if (a/b == 1){
-    console.log("They are evenly split");
-}
-else{
-    console.log("They are not evenly split")
-}
+// let a = 20; //First name of students whose first name starts with a vowel
+// let b =20; //First name of students whose first name starts with a consonant
+// if (a/b == 1){
+//     console.log("They are evenly split");
+// }
+// else{
+//     console.log("They are not evenly split")
+// }
+// let string = "extravaganza"
+// let newString = string.slice(-4);
+// console.log(newString);
+// let food = "The quick fox jumped over the lazy dog";
+// let str1 = "The "
+// let addedStr = "eat ";
+// let str2 = "quick fox jumped over the lazy dog"
+// let newString = concat(str1,addedStr);
+// console.log(newString); 
+// let string = "The quick fox jumped over the lazy dog"
+// let foxes = string.toLowerCase().split(" ");
+// let i = 0;
+// let str = "greeting";
+// console.log(str.indexOf("t"));
+// let str2 = str.slice(0,-2);
+// console.log(str2);
