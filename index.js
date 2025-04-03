@@ -94,3 +94,15 @@
 // let newString = string.trim().toLowerCase();
 // let resultString = newString.charAt(0).toUpperCase()+newString.slice(1);
 // console.log(resultString);
+// let askForHelp = "Help me";
+// if(askForHelp.includes("elp"))
+// {
+//     console.log("I'm here for you");
+// }
+// else{
+//     console.log("how else can I assist you?");
+// }
+//OR
+// let askForHelp = "help meee"
+// let answer = askForHelp !== "help" ? ("I am here for you"):("how else can I assist you?");
+// console.log(answer); ?????????????????????????????????????????????? Not working
