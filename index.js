@@ -103,6 +103,15 @@
 //     console.log("how else can I assist you?");
 // }
 //OR
-// let askForHelp = "help meee"
-// let answer = askForHelp !== "help" ? ("I am here for you"):("how else can I assist you?");
-// console.log(answer); ?????????????????????????????????????????????? Not working
+// let askForHelp = "meee out"
+// let helpneeded = askForHelp.toLowerCase()
+// let answer = helpneeded === "help" ? ("I am here for you"):("how else can I assist you?");
+// console.log(answer);
+let a = 20; //First name of students whose first name starts with a vowel
+let b =20; //First name of students whose first name starts with a consonant
+if (a/b == 1){
+    console.log("They are evenly split");
+}
+else{
+    console.log("They are not evenly split")
+}
